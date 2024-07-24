@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 # Set up PostgreSQL connection using environment variables
 DATABASE_URL = (
     f"dbname='{os.getenv('DB_NAME', 'myappdb')}' "
-    f"user='{os.getenv('DB_USER', 'ranbir')}' "
+    f"user='{os.getenv('DB_USER', 'jhon')}' "
     f"password='{os.getenv('DB_PASSWORD', 'Saini@1994')}' "
     f"host='{os.getenv('DB_HOST', '34.121.210.209')}'"
 )
